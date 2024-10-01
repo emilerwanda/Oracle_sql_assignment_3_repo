@@ -1,35 +1,43 @@
-# Oracle_sql_assignment_3_repo
-this repo is for assignment 3.
+# Oracle SQL Assignment 3 Repository
 
-## Task 1 Creating Pluggable database;
-i created a pluggable database named plsql_class2024db as requsted,I used Sqldeveloper and after then went into command prompt to prove its existance as shown in below screenshoots.
-![creating pdb](https://github.com/user-attachments/assets/b7983510-1062-49e4-9bd7-d14c77502edf)
+This repository contains the tasks for Assignment 3.
 
-here's message displayed saying that it have been created successfully
-![confirmation](https://github.com/user-attachments/assets/c777b48d-60b2-42e2-8da5-07d964ac50dd)
+## Task 1: Creating Pluggable Database
 
-i continued in command promt to make it read and write mode so that i can modify
-![pdb1](https://github.com/user-attachments/assets/66471bfa-10a1-462d-9b11-714de81c0ab8)
+I created a pluggable database named `plsql_class2024db` as requested. I used SQL Developer and then verified its existence via the command prompt, as shown in the screenshots below.
 
-i went straight forward creating user EM_plsqlauca as requested start from two first letter of my name(emile)
-<img width="700" alt="user" src="https://github.com/user-attachments/assets/6f557e0e-d18c-4667-92e1-1a8720ecac6c">
-
-## Task 2 create and delete pluggable database;
-i created pluggable database and named it EM_to_delete_pdb in sqldeveloper as shown below
-![creating](https://github.com/user-attachments/assets/3dc07cb1-c6f1-46ca-a198-1641d456d3e9)
-![em_to_delete_pdb](https://github.com/user-attachments/assets/8ae699ab-8092-4184-ac86-277012e50e45)
-![confirm](https://github.com/user-attachments/assets/3ef71ca8-6557-45d4-832d-040187b03bab)
-
-i went staright forward to command promt of sqlplus to unplug the pluggable database and drop it too, as shown below
-![deleting it](https://github.com/user-attachments/assets/ada2c934-88f9-4091-adb7-dcacb037a2ba)
-
-
-## Task 3 
+![creating](https://github.com/user-attachments/assets/f9996e37-3607-4754-a4b9-15ad029d665f)
 
 
 
+The message displayed confirms that the database was created successfully.
+
+![confirmation](https://github.com/user-attachments/assets/c9853523-23c6-4a1e-81a8-32a2197b1213)
 
 
+Next, I set the database to read and write mode to allow modifications.
+
+![pdb1](https://github.com/user-attachments/assets/e86ad2dc-0ad3-462d-98f0-4936113decd2)
+Read/Write Mode
+
+I then created a user named `EM_plsqlauca` (derived from the first two letters of my name, Emile).
+
+<img width="959" alt="User Creation" src="https://github.com/user-attachments/assets/6f557e0e-d18c-4667-92e1-1a8720ecac6c">
+
+## Task 2: Create and Delete Pluggable Database
+
+I created a pluggable database named `EM_to_delete_pdb` in SQL Developer, as shown below.
+
+![creating](https://github.com/user-attachments/assets/976ca91d-dd24-40db-be3d-489e6dc0e093)
+
+![em_to_delete_pdb](https://github.com/user-attachments/assets/27e289b1-812e-4afe-9a88-d48bae950306)
+![confirm](https://github.com/user-attachments/assets/42eb097c-d6f3-4d40-95d5-629fdfa14394)
 
 
+I then used SQL*Plus to unplug and drop the pluggable database, as shown below.
+
+![deleting it](https://github.com/user-attachments/assets/52b6794d-3921-4d28-bdd0-7c1259445e01)
+
+
+## Task 3
 
