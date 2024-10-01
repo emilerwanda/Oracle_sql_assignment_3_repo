@@ -44,6 +44,9 @@ I started checking the ports of http and https, found that only http got none. t
 ![configuring](https://github.com/user-attachments/assets/71fad5a9-fc3c-4b00-8bc7-273839fc6019)
 ![startup](https://github.com/user-attachments/assets/175d0d93-2f03-48d3-ac83-a85c75c67b58)
 
+## Problem statement
+i got huge distracted because of erors in querring because of my limited knowldge but hope as i practice and time goes i shall understand it better.
+i want to cite the note you gave us 'lecture_05' because all the commands i used i gotted from there.
 
 
 
