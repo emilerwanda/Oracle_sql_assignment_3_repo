@@ -40,7 +40,7 @@ I then used SQL*Plus to unplug and drop the pluggable database, as shown below.
 
 
 ## Task 3 Configuring OEM
-I started checking the ports of http and https, and found that only http got none. then after i assigned port: 8080, shutdown an startup whole database as shwon below
+I started checking the ports of http and https, found that only http got none. then after i assigned port: 8080 to it,then shutdown and startup whole database as shwon below
 ![configuring](https://github.com/user-attachments/assets/71fad5a9-fc3c-4b00-8bc7-273839fc6019)
 ![startup](https://github.com/user-attachments/assets/175d0d93-2f03-48d3-ac83-a85c75c67b58)
 
