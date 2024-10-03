@@ -12,9 +12,8 @@ I created a pluggable database named `plsql_class2024db` as requested. I using s
 
    CREATE PLUGGABLE DATABASE PLSQL_CLASS2024DB
           FROM ORCLPDB
-FILE_NAME_CONVERT = ( 'C:\\USERS\ADMIN\ONEDRIVE\DESKTOP\AUCA\SEM5\PL\ORADATA\ORCL\ORCLPDB\'
-
-'C:\\USERS\ADMIN\ONEDRIVE\DESKTOP\AUCA\SEM5\PL\ORADATA\ORCL\ORCLPDB\PLSQL_CLASS2024DB'); -- CREATING PDB
+FILE_NAME_CONVERT = ( 'C:\\USERS\ADMIN\ONEDRIVE\DESKTOP\AUCA\SEM5\PL\ORADATA\ORCL\ORCLPDB\',
+ 'C:\\USERS\ADMIN\ONEDRIVE\DESKTOP\AUCA\SEM5\PL\ORADATA\ORCL\ORCLPDB\PLSQL_CLASS2024DB' ); -- CREATING PDB
    
 ```
 
@@ -92,7 +91,8 @@ AFTER THEN I GO TO BROWSER AND ENTER 'HTTPS://LOCALHOST:5500/EM' TO LOGIN IN OEM
 
 ## Problem statement
 i got huge distracted because of erors in querring because of my limited knowldge but hope as i practice and time goes i shall understand it better.
-i want to 'cite' the note you gave us 'lecture_05' because all the commands i used i gotted from there.
+i want to 
+'cite' the note you gave us 'lecture_05' because all the commands i used i gotted from there.
 
 
 
