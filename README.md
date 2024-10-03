@@ -4,16 +4,22 @@ This repository contains the tasks for Assignment 3. Ishimwe Emile 26160;
 
 ## Task 1: Creating Pluggable Database
 
-I created a pluggable database named `plsql_class2024db` as requested. I used SQL Developer and then verified its existence via the command prompt, as shown in the screenshots below.
+I created a pluggable database named `plsql_class2024db` as requested. I using sqlplus  and then verified its existence via the command prompt, as shown in the screenshots below.
+```sql
+      SELECT CON_ID,
+      TABLESPACE_NAME,
+      FILE_NAME, FROM CDB_DATA_FILES WHERE CON_ID = 3; -- looking for target file
 
-![creating](https://github.com/user-attachments/assets/f9996e37-3607-4754-a4b9-15ad029d665f)
+   CREATE PLUGGABLE DATABASE PLSQL_CLASS2024DB
+          FROM ORCLPDB
+FILE_NAME_CONVERT = ( 'C://USERS/ADMIN/ONEDRIVE/DESKTOP/AUCA/SEM5/PL/ORADATA/ORCL/ORCLPDB\'
+
+'C://USERS/ADMIN/ONEDRIVE/DESKTOP/AUCA/SEM5/PL/ORADATA/ORCL/ORCLPDB\PLSQL_CLASS2024DB'); -- CREATING PDB
+   
+```
 
 
-
-The message displayed confirms that the database was created successfully.
-
-![confirmation](https://github.com/user-attachments/assets/c9853523-23c6-4a1e-81a8-32a2197b1213)
-
+![new1](https://github.com/user-attachments/assets/a1780932-4c60-4397-9416-c6d2a5808908)
 
 Next, I set the database to read and write mode to allow modifications.
 ```sql
@@ -32,6 +38,9 @@ Alter Session set container = Plsql_Class2024db;
 Create user EM_plssqlauca identified by 12345;
 ```
 <img width="959" alt="User Creation" src="https://github.com/user-attachments/assets/6f557e0e-d18c-4667-92e1-1a8720ecac6c">
+after then i went straight forward to login user created in sqldeveloper
+
+![new5](https://github.com/user-attachments/assets/ae170fe3-65e8-4ee9-a316-9b3e2760619b)
 
 ## Task 2: Create and Delete Pluggable Database
 
@@ -39,7 +48,7 @@ I created a pluggable database named `EM_to_delete_pdb` in SQL Developer, as sho
 ```sql
 Alter pluggable database EM_to_delete_pdb UNPLUG into 'C:\app\curry_emile\product\21c\admin\xe\dpdump\EM_to_delete_pdb.xml';
 
-DROP PLUGGABLE DATABASE EM_to_delete_pdb including datafiles;
+DROP PLUGGABLE DATABASE EM_to_delete_pdb including datafiles; -- deleting it
 ```
 
 ![creating](https://github.com/user-attachments/assets/976ca91d-dd24-40db-be3d-489e6dc0e093)
@@ -74,6 +83,12 @@ SHUTDOWN IMMEDIATE;
 STARTUP;
 ```
 ![startup](https://github.com/user-attachments/assets/175d0d93-2f03-48d3-ac83-a85c75c67b58)
+
+AFTER THEN I GO TO BROWSER AND ENTER 'HTTPS://LOCALHOST:5500/EM' TO LOGIN IN OEM
+![pacy2](https://github.com/user-attachments/assets/839646a9-f849-4844-bf29-b9d8a85af5cb)
+![Screenshot 2024-10-03 170139](https://github.com/user-attachments/assets/b3a1ca48-129d-4d8d-b138-d0c0cf1f0d70)
+
+
 
 ## Problem statement
 i got huge distracted because of erors in querring because of my limited knowldge but hope as i practice and time goes i shall understand it better.
